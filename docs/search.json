@@ -2,15 +2,50 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "temp_website",
+    "title": "Hi, I’m Justin Tan 👋",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I’m a student at the Singapore Institute of Technology (SIT), passionate about data analytics, machine learning, and building useful digital tools.\nI enjoy exploring datasets, uncovering patterns, and turning raw numbers into meaningful insights. Outside of academics, I like hiking, photography, and experimenting with new recipes."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "For my Final Year Project (FYP), I built a Sentiment Analysis Dashboard that analyses customer reviews for e-commerce platforms.\n\n\nThe project aimed to help businesses quickly understand customer sentiment from large volumes of product reviews, without manually reading each one.\nKey features:\n\nScraped and cleaned product review data from public datasets\nApplied NLP techniques to classify sentiment (positive, neutral, negative)\nBuilt an interactive dashboard using R Shiny to visualise trends over time\n\n\n\n\n\n\n\nTool\nPurpose\n\n\n\n\nR / tidyverse\nData cleaning and analysis\n\n\ntidytext\nText processing\n\n\nR Shiny\nDashboard development\n\n\nggplot2\nData visualisation"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hi, I’m Justin Tan 👋",
+    "section": "",
+    "text": "I’m a student at the Singapore Institute of Technology (SIT), passionate about data analytics, machine learning, and building useful digital tools.\nI enjoy exploring datasets, uncovering patterns, and turning raw numbers into meaningful insights. Outside of academics, I like hiking, photography, and experimenting with new recipes."
+  },
+  {
+    "objectID": "index.html#quick-facts",
+    "href": "index.html#quick-facts",
+    "title": "Hi, I’m Justin Tan 👋",
+    "section": "Quick Facts",
+    "text": "Quick Facts\n\n🎓 Studying at Singapore Institute of Technology\n💻 Interested in Data Science and Software Engineering\n📍 Based in Singapore\n🌱 Currently learning: R, Python, and Quarto for reproducible research\n\n\nΩ ## A Data Visualization I’m Proud Of\nBelow is a simple chart exploring the relationship between study hours and exam scores using R."
+  },
+  {
+    "objectID": "index.html#a-data-visualization-im-proud-of",
+    "href": "index.html#a-data-visualization-im-proud-of",
+    "title": "Hi, I’m Justin Tan 👋",
+    "section": "A Data Visualization I’m Proud Of",
+    "text": "A Data Visualization I’m Proud Of\nBelow is a simple chart exploring the relationship between study hours and exam scores using R."
+  },
+  {
+    "objectID": "about.html#my-final-year-project",
+    "href": "about.html#my-final-year-project",
+    "title": "About",
+    "section": "",
+    "text": "For my Final Year Project (FYP), I built a Sentiment Analysis Dashboard that analyses customer reviews for e-commerce platforms.\n\n\nThe project aimed to help businesses quickly understand customer sentiment from large volumes of product reviews, without manually reading each one.\nKey features:\n\nScraped and cleaned product review data from public datasets\nApplied NLP techniques to classify sentiment (positive, neutral, negative)\nBuilt an interactive dashboard using R Shiny to visualise trends over time\n\n\n\n\n\n\n\nTool\nPurpose\n\n\n\n\nR / tidyverse\nData cleaning and analysis\n\n\ntidytext\nText processing\n\n\nR Shiny\nDashboard development\n\n\nggplot2\nData visualisation"
+  },
+  {
+    "objectID": "about.html#reflection-on-the-use-of-genai",
+    "href": "about.html#reflection-on-the-use-of-genai",
+    "title": "About",
+    "section": "Reflection on the Use of GenAI",
+    "text": "Reflection on the Use of GenAI\nFor this lab, I used Claude (by Anthropic) to help me build and polish this website.\n\nHow it helped\n\nFormatting assistance — helped me structure content in Markdown quickly\nDebugging Quarto — spotted an indentation error in my YAML header\nContent suggestions — helped me brainstorm and frame my FYP clearly\n\n\n\nWhat I found challenging\n\nGenAI occasionally gave confident but slightly incorrect Quarto-specific syntax — I had to verify against official documentation\nIt works best when you already understand the tools well enough to evaluate its suggestions\n\n\n\nOverall Reflection\nUsing GenAI as a thinking partner rather than a shortcut worked best for me. It accelerates work most effectively when you bring your own understanding to the table."
   }
 ]

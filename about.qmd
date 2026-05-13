@@ -2,8 +2,46 @@
 title: "About"
 ---
 
-About this site
+## My Final Year Project
 
-```{r}
-1 + 1
-```
+For my Final Year Project (FYP), I built a **Sentiment Analysis Dashboard** that analyses customer reviews for e-commerce platforms.
+
+### Project Overview
+
+The project aimed to help businesses quickly understand customer sentiment from large volumes of product reviews, without manually reading each one.
+
+**Key features:**
+
+- Scraped and cleaned product review data from public datasets
+- Applied NLP techniques to classify sentiment (positive, neutral, negative)
+- Built an interactive dashboard using R Shiny to visualise trends over time
+
+### Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| R / tidyverse | Data cleaning and analysis |
+| tidytext | Text processing |
+| R Shiny | Dashboard development |
+| ggplot2 | Data visualisation |
+
+---
+
+## Reflection on the Use of GenAI
+
+For this lab, I used **Claude (by Anthropic)** to help me build and polish this website.
+
+### How it helped
+
+- **Formatting assistance** — helped me structure content in Markdown quickly
+- **Debugging Quarto** — spotted an indentation error in my YAML header
+- **Content suggestions** — helped me brainstorm and frame my FYP clearly
+
+### What I found challenging
+
+- GenAI occasionally gave confident but slightly incorrect Quarto-specific syntax — I had to verify against official documentation
+- It works best when you already understand the tools well enough to evaluate its suggestions
+
+### Overall Reflection
+
+Using GenAI as a **thinking partner** rather than a shortcut worked best for me. It accelerates work most effectively when you bring your own understanding to the table.

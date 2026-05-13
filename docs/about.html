@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -151,7 +116,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#my-final-year-project" id="toc-my-final-year-project" class="nav-link active" data-scroll-target="#my-final-year-project">My Final Year Project</a>
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#tools-used" id="toc-tools-used" class="nav-link" data-scroll-target="#tools-used">Tools Used</a></li>
+  </ul></li>
+  <li><a href="#reflection-on-the-use-of-genai" id="toc-reflection-on-the-use-of-genai" class="nav-link" data-scroll-target="#reflection-on-the-use-of-genai">Reflection on the Use of GenAI</a>
+  <ul class="collapse">
+  <li><a href="#how-it-helped" id="toc-how-it-helped" class="nav-link" data-scroll-target="#how-it-helped">How it helped</a></li>
+  <li><a href="#what-i-found-challenging" id="toc-what-i-found-challenging" class="nav-link" data-scroll-target="#what-i-found-challenging">What I found challenging</a></li>
+  <li><a href="#overall-reflection" id="toc-overall-reflection" class="nav-link" data-scroll-target="#overall-reflection">Overall Reflection</a></li>
+  </ul></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -179,15 +160,75 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="my-final-year-project" class="level2">
+<h2 class="anchored" data-anchor-id="my-final-year-project">My Final Year Project</h2>
+<p>For my Final Year Project (FYP), I built a <strong>Sentiment Analysis Dashboard</strong> that analyses customer reviews for e-commerce platforms.</p>
+<section id="project-overview" class="level3">
+<h3 class="anchored" data-anchor-id="project-overview">Project Overview</h3>
+<p>The project aimed to help businesses quickly understand customer sentiment from large volumes of product reviews, without manually reading each one.</p>
+<p><strong>Key features:</strong></p>
+<ul>
+<li>Scraped and cleaned product review data from public datasets</li>
+<li>Applied NLP techniques to classify sentiment (positive, neutral, negative)</li>
+<li>Built an interactive dashboard using R Shiny to visualise trends over time</li>
+</ul>
+</section>
+<section id="tools-used" class="level3">
+<h3 class="anchored" data-anchor-id="tools-used">Tools Used</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R / tidyverse</td>
+<td>Data cleaning and analysis</td>
+</tr>
+<tr class="even">
+<td>tidytext</td>
+<td>Text processing</td>
+</tr>
+<tr class="odd">
+<td>R Shiny</td>
+<td>Dashboard development</td>
+</tr>
+<tr class="even">
+<td>ggplot2</td>
+<td>Data visualisation</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="reflection-on-the-use-of-genai" class="level2">
+<h2 class="anchored" data-anchor-id="reflection-on-the-use-of-genai">Reflection on the Use of GenAI</h2>
+<p>For this lab, I used <strong>Claude (by Anthropic)</strong> to help me build and polish this website.</p>
+<section id="how-it-helped" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-helped">How it helped</h3>
+<ul>
+<li><strong>Formatting assistance</strong> — helped me structure content in Markdown quickly</li>
+<li><strong>Debugging Quarto</strong> — spotted an indentation error in my YAML header</li>
+<li><strong>Content suggestions</strong> — helped me brainstorm and frame my FYP clearly</li>
+</ul>
+</section>
+<section id="what-i-found-challenging" class="level3">
+<h3 class="anchored" data-anchor-id="what-i-found-challenging">What I found challenging</h3>
+<ul>
+<li>GenAI occasionally gave confident but slightly incorrect Quarto-specific syntax — I had to verify against official documentation</li>
+<li>It works best when you already understand the tools well enough to evaluate its suggestions</li>
+</ul>
+</section>
+<section id="overall-reflection" class="level3">
+<h3 class="anchored" data-anchor-id="overall-reflection">Overall Reflection</h3>
+<p>Using GenAI as a <strong>thinking partner</strong> rather than a shortcut worked best for me. It accelerates work most effectively when you bring your own understanding to the table.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

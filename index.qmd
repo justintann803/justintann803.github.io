@@ -1,11 +1,40 @@
 ---
-title: "temp_website"
+title: "Hi, I'm Justin Tan 👋"
 ---
 
-This is a Quarto website.
+## About Me
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm a student at the **Singapore Institute of Technology (SIT)**, passionate about data analytics, machine learning, and building useful digital tools.
+
+I enjoy exploring datasets, uncovering patterns, and turning raw numbers into meaningful insights. Outside of academics, I like hiking, photography, and experimenting with new recipes.
+
+---
+
+## Quick Facts
+
+- 🎓 Studying at Singapore Institute of Technology
+- 💻 Interested in **Data Science** and **Software Engineering**
+- 📍 Based in **Singapore**
+- 🌱 Currently learning: R, Python, and Quarto for reproducible research
+
+---
+Ω
+## A Data Visualization I'm Proud Of
+
+Below is a simple chart exploring the relationship between study hours and exam scores using R.
 
 ```{r}
-1 + 1
+#| echo: false
+#| message: false
+
+study_hours <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+scores <- c(45, 50, 55, 62, 70, 75, 80, 85, 88, 92)
+
+plot(study_hours, scores,
+     xlab = "Study Hours per Day",
+     ylab = "Exam Score (%)",
+     main = "Study Hours vs Exam Score",
+     pch = 19, col = "#2c7bb6",
+     xlim = c(0, 11), ylim = c(40, 100))
+abline(lm(scores ~ study_hours), col = "#d7191c", lwd = 2)
 ```
